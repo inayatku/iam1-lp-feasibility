@@ -5,7 +5,7 @@ Geometric Pivot Method for Linear Programming Feasibility*, following a full
 recheck and regeneration of the paper's computational results.
 
 **Repository:** https://github.com/inayatku/iam1-lp-feasibility
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.20668374
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.20678798
 
 ## Layout
 
@@ -24,7 +24,7 @@ publication and is not included in this public repository.
 ## Repository
 
 Published at https://github.com/inayatku/iam1-lp-feasibility and archived
-on Zenodo at https://doi.org/10.5281/zenodo.20668374.
+on Zenodo at https://doi.org/10.5281/zenodo.20678798.
 
 ## How to reproduce
 

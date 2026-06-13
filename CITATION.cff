@@ -17,6 +17,7 @@ authors:
     affiliation: "Faculty of Business and Communications, INTI International University, Malaysia"
 year: 2026
 license: MIT
+doi: 10.5281/zenodo.20678798
 preferred-citation:
   type: article
   title: "IAM-1: An Artificial-Free Geometric Pivot Method for Linear Programming Feasibility"
