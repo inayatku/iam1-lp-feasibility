@@ -8,11 +8,7 @@ code/random_comparison/
 c1.log
 c2.log
 
-# Local-only: confidential review correspondence and submission materials,
-# kept out of the public repository.
+# Local-only working files, kept out of the public repository.
 reviews/
 *.spl
-
-# Manuscript (PDF + LaTeX source) kept private until publication; the public
-# repository is a code+data reproduction package only.
 manuscript/
