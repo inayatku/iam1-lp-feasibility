@@ -1,0 +1,39 @@
+LP Feasibility Methods Comparison Summary
+=====================================================
+
+Parameters:
+- Problem type: feasible
+- Random seed: 43
+- Number of problems per size: 5
+- Problem sizes: 5x5, 10x10, 15x15, 20x20, 25x25, 30x30, 40x40, 50x50, 50x60, 60x60
+- Sparsity: 0.0
+- Tolerance: 1e-08
+- Max iterations: 4000
+
+Methods compared:
+1. IAM-1 Standard (with exact L2 norm)
+2. Simplex Phase 1: Two-phase simplex method implementation for LP feasibility problems - BENCHMARK
+3. HiGHS (high-performance solver using SciPy's linprog with zero objective, presolve disabled)
+4. Pan's Method with Row Scaling: Implementation of Pan's Most-Obtuse-Angle Column Rule algorithm with initial row scaling
+
+Comparison with benchmark solvers:
+- Methods that consistently agree with Simplex Phase 1 and HiGHS are more reliable for real-world applications
+- High disagreement rates may indicate numerical instability or issues with max iteration limits
+- Lower iteration counts and faster runtime than benchmarks are advantages of IAM methods
+
+Numerical tolerance impact:
+- Higher tolerance (e.g. 1e-5) may lead to faster convergence but possibly less accurate results
+- Lower tolerance (e.g. 1e-10) may improve accuracy but may require more iterations to converge
+- Current tolerance: 1e-08
+
+Note on iteration counts:
+- 'Avg_Iterations' excludes cases that reached maximum iterations
+- 'Avg_Iterations_All' includes all cases, including those that reached maximum iterations
+- Max_Iter_Reached shows the percentage of problems where the method hit the iteration limit
+
+Key differences between methods:
+1. Simplex Phase 1: Standard simplex method implementation with numerical stability enhancements - BENCHMARK
+2. HiGHS: High-performance implementation of simplex method with zero objective vector
+3. IAM-1 Standard: Uses exact L2 norm for calculating projections in every iteration
+4. Pan's Method with Row Scaling: Implementation of Pan's Most-Obtuse-Angle Column Rule algorithm with initial row scaling
+

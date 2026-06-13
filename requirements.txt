@@ -1,0 +1,5 @@
+# Verified environment: Python 3.11.9 on Windows 11 (June 2026 regeneration runs)
+numpy>=1.24
+scipy>=1.9        # HiGHS backend of scipy.optimize.linprog
+pandas>=1.5
+matplotlib>=3.6

@@ -1,0 +1,11 @@
+Size,Problem_Type,IAM-1 Standard_Success_Rate,IAM-1 Standard_Agreement_with_Simplex,IAM-1 Standard_Agreement_with_HiGHS,IAM-1 Standard_Max_Iter_Reached,IAM-1 Standard_Avg_Iterations,IAM-1 Standard_Avg_Iterations_All,IAM-1 Standard_Avg_Time,IAM-1 Standard_Time_Per_Iter,Pan's Method with Row Scaling_Success_Rate,Pan's Method with Row Scaling_Agreement_with_Simplex,Pan's Method with Row Scaling_Agreement_with_HiGHS,Pan's Method with Row Scaling_Max_Iter_Reached,Pan's Method with Row Scaling_Avg_Iterations,Pan's Method with Row Scaling_Avg_Iterations_All,Pan's Method with Row Scaling_Avg_Time,Pan's Method with Row Scaling_Time_Per_Iter,Simplex_Avg_Iterations,Simplex_Avg_Time,Simplex_Time_Per_Iter,HiGHS_Avg_Iterations,HiGHS_Avg_Time,HiGHS_Time_Per_Iter
+5x5,feasible,100.0,100.0,100.0,0.0,2.33,2.33,0.0024,0.001096,100.0,100.0,100.0,0.0,3.17,3.17,0.0016,0.000542,4.0,0.0043,0.001028,2.17,0.0028,0.00163
+10x10,feasible,100.0,100.0,100.0,0.0,5.67,5.67,0.0044,0.000699,100.0,100.0,100.0,0.0,6.07,6.07,0.004,0.000827,8.23,0.0124,0.00143,5.2,0.0036,0.00084
+15x15,feasible,100.0,100.0,100.0,0.0,10.0,10.0,0.0073,0.000698,100.0,100.0,100.0,0.0,8.97,8.97,0.0067,0.000737,13.37,0.0209,0.001542,9.03,0.003,0.000378
+20x20,feasible,100.0,100.0,100.0,0.0,13.87,13.87,0.0134,0.000949,100.0,100.0,100.0,0.0,12.63,12.63,0.0072,0.000581,20.7,0.0385,0.001842,12.13,0.0047,0.00045
+25x25,feasible,100.0,100.0,100.0,0.0,17.5,17.5,0.0165,0.000962,100.0,100.0,100.0,0.0,16.1,16.1,0.0089,0.000526,29.0,0.0695,0.002409,15.43,0.0035,0.000204
+30x30,feasible,100.0,100.0,100.0,0.0,24.13,24.13,0.0409,0.001652,100.0,100.0,100.0,0.0,21.4,21.4,0.0153,0.00071,39.67,0.1023,0.002633,23.27,0.0056,0.000253
+40x40,feasible,100.0,100.0,100.0,0.0,33.37,33.37,0.0404,0.001203,100.0,100.0,100.0,0.0,31.33,31.33,0.0326,0.001175,63.87,0.2096,0.003301,33.97,0.0033,9.9e-05
+50x50,feasible,100.0,100.0,100.0,0.0,48.87,48.87,0.0641,0.00132,100.0,100.0,100.0,0.0,55.67,55.67,0.0358,0.000634,99.77,0.4048,0.004059,46.57,0.0074,0.000162
+50x60,feasible,100.0,100.0,100.0,0.0,46.5,46.5,0.0689,0.001493,100.0,100.0,100.0,0.0,42.3,42.3,0.0288,0.000675,91.57,0.3692,0.004062,41.17,0.0064,0.000163
+60x60,feasible,100.0,100.0,100.0,0.0,58.83,58.83,0.1058,0.001782,90.0,90.0,90.0,10.0,65.3,158.77,0.1162,0.000699,129.53,0.6387,0.004936,55.17,0.0053,9.7e-05
