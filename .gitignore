@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.out
+*.synctex.gz
+code/random_comparison/
+
+# Local-only working files, kept out of the public repository.
+reviews/
+manuscript/
+*.spl
+
+# Safety: never publish backups, scratch notes, or local-only material
+*.bak
+*~
+.DS_Store
+Thumbs.db
+*_DO_NOT_PUSH*
+notes/
+drafts/
+private/

@@ -1,0 +1,5 @@
+# Tested with Python 3.11
+numpy>=1.24
+scipy>=1.9        # HiGHS backend of scipy.optimize.linprog
+pandas>=1.5
+matplotlib>=3.6

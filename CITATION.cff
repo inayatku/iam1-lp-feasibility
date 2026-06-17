@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "IAM-1: An Artificial-Free Geometric Pivot Method for Linear Programming Feasibility (code and data)"
+authors:
+  - family-names: Inayatullah
+    given-names: Syed
+    affiliation: "Department of Mathematics, University of Karachi, Pakistan"
+    email: inayat@uok.edu.pk
+  - family-names: Imtiaz
+    given-names: Muhammad
+    affiliation: "Department of Mathematics, University of Karachi, Pakistan"
+  - family-names: Khan
+    given-names: Fozia Hanif
+    affiliation: "Department of Mathematics, University of Karachi, Pakistan"
+  - family-names: Koh
+    given-names: Wei Sin
+    affiliation: "Faculty of Business and Communications, INTI International University, Malaysia"
+year: 2026
+license: MIT
+doi: 10.5281/zenodo.20678797
+preferred-citation:
+  type: article
+  title: "IAM-1: An Artificial-Free Geometric Pivot Method for Linear Programming Feasibility"
+  authors:
+    - family-names: Inayatullah
+      given-names: Syed
+    - family-names: Imtiaz
+      given-names: Muhammad
+    - family-names: Khan
+      given-names: Fozia Hanif
+    - family-names: Koh
+      given-names: Wei Sin
+  year: 2026
+  journal: "submitted"
