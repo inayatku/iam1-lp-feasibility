@@ -1,4 +1,4 @@
-# IAM-1 — An Artificial-Free Geometric Pivot Method for LP Feasibility
+# IAM-1: An Artificial-Free Geometric Pivot Method for LP Feasibility
 
 Code and data to reproduce the computational results of the paper
 *IAM-1: An Artificial-Free Geometric Pivot Method for Linear Programming Feasibility*.
